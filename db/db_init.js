@@ -31,10 +31,10 @@ const insert_itemtable_sql = `
     VALUES
         (?, ?, ?, ?, ?, ?, ?, ?, ?);
 `
-db.execute(insert_itemtable_sql, ["Web Apps", "Lab 1", "01-06-2023", "5", "Lab", "Practical", "8", "3", "Finish details table and styles"]);
-db.execute(insert_itemtable_sql, ["Theory of Knowledge", "Extended Essay", "06-09-2024", "1", "Essay", "Research", "5", "8", "Find sources and complete annotated bibliography"]);
-db.execute(insert_itemtable_sql, ["AP Calculus AB", "Optimization Test Retake", "01-08-2023", "10", "Test", "Written", "2", "2", "Study optimization and related rates (extra attention to formulas)"]);
-db.execute(insert_itemtable_sql, ["Web Apps", "Lab 4", "02-05-2023", "3", "Lab", "Practical", "10", "3", "sample description"]);
+db.execute(insert_itemtable_sql, ["CSCI-181", "Project 1", "12-06-2024", "6", "Project", "Practical", "8", "5", "Finish details table and styles"]);
+db.execute(insert_itemtable_sql, ["MGMT-196", "Final Presentation - Paper", "12-06-2024", "10", "Essay", "Research", "2", "8", "Find sources and complete annotated bibliography"]);
+db.execute(insert_itemtable_sql, ["SPAN-301", "Complete final project", "12-11-2024", "10", "Oral", "Verbal", "6", "5", "Complete organization sheet"]);
+db.execute(insert_itemtable_sql, ["ECON-201", "Final Exam", "12-09-2024", "5", "Final", "Practical", "3", "8", "Study for final exam"]);
 
 // Reads the sample items inserted
 const read_itemtable_sql = "SELECT * FROM Item";
